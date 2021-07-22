@@ -89,7 +89,6 @@ class layout(BoxLayout):
             self.wordlist.append(self.ids.textinput.text.strip())
             self.inputtext += self.ids.textinput.text.strip()
             self.newvar += self.inputtext
-            print(self.random_text_list)
 
             if self.inputtext == self.random_text_list[self.count*3]:
                 self.random_text_list.insert(self.count*3, "[color=00FF00]")
